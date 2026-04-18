@@ -1,0 +1,1500 @@
+{
+  "total": 124,
+  "by_level": {
+    "P0": [
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天风姤, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☰, 实际=☰☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天山遁, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☰, 实际=☰☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天地否, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☰, 实际=☰☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风地观, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☴, 实际=☴☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山地剥, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☶, 实际=☶☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火地晋, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☲, 实际=☲☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火天大有, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☲, 实际=☲☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地雷复, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☷, 实际=☷☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地泽临, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☷, 实际=☷☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地天泰, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☷, 实际=☷☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷天大壮, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☳, 实际=☳☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽天夬, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☱, 实际=☱☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水天需, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☵, 实际=☵☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水地比, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☵, 实际=☵☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷地豫, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☳, 实际=☳☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷水解, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☳, 实际=☳☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷风恒, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☳, 实际=☳☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地风升, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☷, 实际=☷☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水风井, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☵, 实际=☵☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽风大过, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☱, 实际=☱☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽雷随, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☱, 实际=☱☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风天小畜, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☴, 实际=☴☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风火家人, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☴, 实际=☴☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风雷益, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☴, 实际=☴☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天雷无妄, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☰, 实际=☰☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火雷噬嗑, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☲, 实际=☲☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山雷颐, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☶, 实际=☶☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山风蛊, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☶, 实际=☶☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水泽节, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☵, 实际=☵☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水雷屯, neigua+waigua≠guaxiang",
+        "detail": "期望=☳☵, 实际=☵☳"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水火既济, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☵, 实际=☵☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽火革, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☱, 实际=☱☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷火丰, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☳, 实际=☳☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地火明夷, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☷, 实际=☷☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地水师, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☷, 实际=☷☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火山旅, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☲, 实际=☲☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火风鼎, neigua+waigua≠guaxiang",
+        "detail": "期望=☴☲, 实际=☲☴"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火水未济, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☲, 实际=☲☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山水蒙, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☶, 实际=☶☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天火同人, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☰, 实际=☰☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风水涣, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☴, 实际=☴☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天水讼, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☰, 实际=☰☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山火贲, neigua+waigua≠guaxiang",
+        "detail": "期望=☲☶, 实际=☶☲"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山天大畜, neigua+waigua≠guaxiang",
+        "detail": "期望=☰☶, 实际=☶☰"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山泽损, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☶, 实际=☶☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火泽睽, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☲, 实际=☲☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天泽履, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☰, 实际=☰☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风泽中孚, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☴, 实际=☴☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风山渐, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☴, 实际=☴☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽水困, neigua+waigua≠guaxiang",
+        "detail": "期望=☵☱, 实际=☱☵"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽地萃, neigua+waigua≠guaxiang",
+        "detail": "期望=☷☱, 实际=☱☷"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽山咸, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☱, 实际=☱☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水山蹇, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☵, 实际=☵☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地山谦, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☷, 实际=☷☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷山小过, neigua+waigua≠guaxiang",
+        "detail": "期望=☶☳, 实际=☳☶"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷泽归妹, neigua+waigua≠guaxiang",
+        "detail": "期望=☱☳, 实际=☳☱"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=乾为天, key与guaxiang_full不一致",
+        "detail": "key=111111, guaxiang_full=⚊⚊⚊⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天风姤, key与guaxiang_full不一致",
+        "detail": "key=111110, guaxiang_full=⚊⚊⚊⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天山遁, key与guaxiang_full不一致",
+        "detail": "key=111010, guaxiang_full=⚊⚊⚊⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天地否, key与guaxiang_full不一致",
+        "detail": "key=111000, guaxiang_full=⚊⚊⚊⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风地观, key与guaxiang_full不一致",
+        "detail": "key=110000, guaxiang_full=⚊⚊⚋⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山地剥, key与guaxiang_full不一致",
+        "detail": "key=010000, guaxiang_full=⚋⚊⚋⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火地晋, key与guaxiang_full不一致",
+        "detail": "key=101000, guaxiang_full=⚊⚋⚊⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火天大有, key与guaxiang_full不一致",
+        "detail": "key=101111, guaxiang_full=⚊⚋⚊⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=坤为地, key与guaxiang_full不一致",
+        "detail": "key=000000, guaxiang_full=⚋⚋⚋⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地雷复, key与guaxiang_full不一致",
+        "detail": "key=000001, guaxiang_full=⚋⚋⚋⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地泽临, key与guaxiang_full不一致",
+        "detail": "key=000011, guaxiang_full=⚋⚋⚋⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地天泰, key与guaxiang_full不一致",
+        "detail": "key=000111, guaxiang_full=⚋⚋⚋⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷天大壮, key与guaxiang_full不一致",
+        "detail": "key=001111, guaxiang_full=⚋⚋⚊⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽天夬, key与guaxiang_full不一致",
+        "detail": "key=011111, guaxiang_full=⚋⚊⚊⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水天需, key与guaxiang_full不一致",
+        "detail": "key=100111, guaxiang_full=⚊⚋⚋⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水地比, key与guaxiang_full不一致",
+        "detail": "key=100000, guaxiang_full=⚊⚋⚋⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=震为雷, key与guaxiang_full不一致",
+        "detail": "key=001001, guaxiang_full=⚋⚋⚊⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷地豫, key与guaxiang_full不一致",
+        "detail": "key=001000, guaxiang_full=⚋⚋⚊⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷水解, key与guaxiang_full不一致",
+        "detail": "key=001100, guaxiang_full=⚋⚋⚊⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷风恒, key与guaxiang_full不一致",
+        "detail": "key=001110, guaxiang_full=⚋⚋⚊⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地风升, key与guaxiang_full不一致",
+        "detail": "key=000110, guaxiang_full=⚋⚋⚋⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水风井, key与guaxiang_full不一致",
+        "detail": "key=100110, guaxiang_full=⚊⚋⚋⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽风大过, key与guaxiang_full不一致",
+        "detail": "key=011110, guaxiang_full=⚋⚊⚊⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽雷随, key与guaxiang_full不一致",
+        "detail": "key=011001, guaxiang_full=⚋⚊⚊⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=巽为风, key与guaxiang_full不一致",
+        "detail": "key=110110, guaxiang_full=⚊⚊⚋⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风天小畜, key与guaxiang_full不一致",
+        "detail": "key=110111, guaxiang_full=⚊⚊⚋⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风火家人, key与guaxiang_full不一致",
+        "detail": "key=110101, guaxiang_full=⚊⚊⚋⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风雷益, key与guaxiang_full不一致",
+        "detail": "key=110001, guaxiang_full=⚊⚊⚋⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天雷无妄, key与guaxiang_full不一致",
+        "detail": "key=111001, guaxiang_full=⚊⚊⚊⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火雷噬嗑, key与guaxiang_full不一致",
+        "detail": "key=101001, guaxiang_full=⚊⚋⚊⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山雷颐, key与guaxiang_full不一致",
+        "detail": "key=010001, guaxiang_full=⚋⚊⚋⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山风蛊, key与guaxiang_full不一致",
+        "detail": "key=010110, guaxiang_full=⚋⚊⚋⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=坎为水, key与guaxiang_full不一致",
+        "detail": "key=100100, guaxiang_full=⚊⚋⚋⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水泽节, key与guaxiang_full不一致",
+        "detail": "key=100011, guaxiang_full=⚊⚋⚋⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水雷屯, key与guaxiang_full不一致",
+        "detail": "key=100001, guaxiang_full=⚊⚋⚋⚋⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水火既济, key与guaxiang_full不一致",
+        "detail": "key=100101, guaxiang_full=⚊⚋⚋⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽火革, key与guaxiang_full不一致",
+        "detail": "key=011101, guaxiang_full=⚋⚊⚊⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷火丰, key与guaxiang_full不一致",
+        "detail": "key=001101, guaxiang_full=⚋⚋⚊⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地火明夷, key与guaxiang_full不一致",
+        "detail": "key=000101, guaxiang_full=⚋⚋⚋⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地水师, key与guaxiang_full不一致",
+        "detail": "key=000100, guaxiang_full=⚋⚋⚋⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=离为火, key与guaxiang_full不一致",
+        "detail": "key=101101, guaxiang_full=⚊⚋⚊⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火山旅, key与guaxiang_full不一致",
+        "detail": "key=101010, guaxiang_full=⚊⚋⚊⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火风鼎, key与guaxiang_full不一致",
+        "detail": "key=101110, guaxiang_full=⚊⚋⚊⚊⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火水未济, key与guaxiang_full不一致",
+        "detail": "key=101100, guaxiang_full=⚊⚋⚊⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山水蒙, key与guaxiang_full不一致",
+        "detail": "key=010100, guaxiang_full=⚋⚊⚋⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天火同人, key与guaxiang_full不一致",
+        "detail": "key=111101, guaxiang_full=⚊⚊⚊⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风水涣, key与guaxiang_full不一致",
+        "detail": "key=110100, guaxiang_full=⚊⚊⚋⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天水讼, key与guaxiang_full不一致",
+        "detail": "key=111100, guaxiang_full=⚊⚊⚊⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=艮为山, key与guaxiang_full不一致",
+        "detail": "key=010010, guaxiang_full=⚋⚊⚋⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山火贲, key与guaxiang_full不一致",
+        "detail": "key=010101, guaxiang_full=⚋⚊⚋⚊⚋⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山天大畜, key与guaxiang_full不一致",
+        "detail": "key=010111, guaxiang_full=⚋⚊⚋⚊⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=山泽损, key与guaxiang_full不一致",
+        "detail": "key=010011, guaxiang_full=⚋⚊⚋⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=火泽睽, key与guaxiang_full不一致",
+        "detail": "key=101011, guaxiang_full=⚊⚋⚊⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=天泽履, key与guaxiang_full不一致",
+        "detail": "key=111011, guaxiang_full=⚊⚊⚊⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风泽中孚, key与guaxiang_full不一致",
+        "detail": "key=110011, guaxiang_full=⚊⚊⚋⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=风山渐, key与guaxiang_full不一致",
+        "detail": "key=110010, guaxiang_full=⚊⚊⚋⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=兑为泽, key与guaxiang_full不一致",
+        "detail": "key=011011, guaxiang_full=⚋⚊⚊⚋⚊⚊"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽水困, key与guaxiang_full不一致",
+        "detail": "key=011100, guaxiang_full=⚋⚊⚊⚊⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽地萃, key与guaxiang_full不一致",
+        "detail": "key=011000, guaxiang_full=⚋⚊⚊⚋⚋⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=泽山咸, key与guaxiang_full不一致",
+        "detail": "key=011010, guaxiang_full=⚋⚊⚊⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=水山蹇, key与guaxiang_full不一致",
+        "detail": "key=100010, guaxiang_full=⚊⚋⚋⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=地山谦, key与guaxiang_full不一致",
+        "detail": "key=000010, guaxiang_full=⚋⚋⚋⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷山小过, key与guaxiang_full不一致",
+        "detail": "key=001010, guaxiang_full=⚋⚋⚊⚋⚊⚋"
+      },
+      {
+        "level": "P0",
+        "category": "数据一致性",
+        "message": "卦名=雷泽归妹, key与guaxiang_full不一致",
+        "detail": "key=001011, guaxiang_full=⚋⚋⚊⚋⚊⚊"
+      }
+    ],
+    "P1": [
+      {
+        "level": "P1",
+        "category": "数据完整性",
+        "message": "yongshen_rules.json缺少必要类别: 测婚姻",
+        "detail": ""
+      },
+      {
+        "level": "P1",
+        "category": "数据完整性",
+        "message": "yongshen_rules.json缺少必要类别: 测工作官运",
+        "detail": ""
+      },
+      {
+        "level": "P1",
+        "category": "数据完整性",
+        "message": "yongshen_rules.json缺少必要类别: 测健康疾病",
+        "detail": ""
+      },
+      {
+        "level": "P1",
+        "category": "数据完整性",
+        "message": "yongshen_rules.json缺少必要类别: 测考试学业",
+        "detail": ""
+      }
+    ],
+    "P2": []
+  },
+  "all": [
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天风姤, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☰, 实际=☰☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天山遁, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☰, 实际=☰☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天地否, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☰, 实际=☰☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风地观, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☴, 实际=☴☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山地剥, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☶, 实际=☶☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火地晋, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☲, 实际=☲☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火天大有, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☲, 实际=☲☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地雷复, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☷, 实际=☷☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地泽临, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☷, 实际=☷☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地天泰, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☷, 实际=☷☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷天大壮, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☳, 实际=☳☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽天夬, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☱, 实际=☱☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水天需, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☵, 实际=☵☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水地比, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☵, 实际=☵☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷地豫, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☳, 实际=☳☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷水解, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☳, 实际=☳☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷风恒, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☳, 实际=☳☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地风升, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☷, 实际=☷☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水风井, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☵, 实际=☵☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽风大过, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☱, 实际=☱☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽雷随, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☱, 实际=☱☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风天小畜, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☴, 实际=☴☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风火家人, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☴, 实际=☴☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风雷益, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☴, 实际=☴☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天雷无妄, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☰, 实际=☰☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火雷噬嗑, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☲, 实际=☲☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山雷颐, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☶, 实际=☶☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山风蛊, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☶, 实际=☶☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水泽节, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☵, 实际=☵☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水雷屯, neigua+waigua≠guaxiang",
+      "detail": "期望=☳☵, 实际=☵☳"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水火既济, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☵, 实际=☵☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽火革, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☱, 实际=☱☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷火丰, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☳, 实际=☳☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地火明夷, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☷, 实际=☷☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地水师, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☷, 实际=☷☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火山旅, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☲, 实际=☲☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火风鼎, neigua+waigua≠guaxiang",
+      "detail": "期望=☴☲, 实际=☲☴"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火水未济, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☲, 实际=☲☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山水蒙, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☶, 实际=☶☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天火同人, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☰, 实际=☰☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风水涣, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☴, 实际=☴☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天水讼, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☰, 实际=☰☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山火贲, neigua+waigua≠guaxiang",
+      "detail": "期望=☲☶, 实际=☶☲"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山天大畜, neigua+waigua≠guaxiang",
+      "detail": "期望=☰☶, 实际=☶☰"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山泽损, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☶, 实际=☶☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火泽睽, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☲, 实际=☲☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天泽履, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☰, 实际=☰☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风泽中孚, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☴, 实际=☴☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风山渐, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☴, 实际=☴☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽水困, neigua+waigua≠guaxiang",
+      "detail": "期望=☵☱, 实际=☱☵"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽地萃, neigua+waigua≠guaxiang",
+      "detail": "期望=☷☱, 实际=☱☷"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽山咸, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☱, 实际=☱☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水山蹇, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☵, 实际=☵☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地山谦, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☷, 实际=☷☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷山小过, neigua+waigua≠guaxiang",
+      "detail": "期望=☶☳, 实际=☳☶"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷泽归妹, neigua+waigua≠guaxiang",
+      "detail": "期望=☱☳, 实际=☳☱"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=乾为天, key与guaxiang_full不一致",
+      "detail": "key=111111, guaxiang_full=⚊⚊⚊⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天风姤, key与guaxiang_full不一致",
+      "detail": "key=111110, guaxiang_full=⚊⚊⚊⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天山遁, key与guaxiang_full不一致",
+      "detail": "key=111010, guaxiang_full=⚊⚊⚊⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天地否, key与guaxiang_full不一致",
+      "detail": "key=111000, guaxiang_full=⚊⚊⚊⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风地观, key与guaxiang_full不一致",
+      "detail": "key=110000, guaxiang_full=⚊⚊⚋⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山地剥, key与guaxiang_full不一致",
+      "detail": "key=010000, guaxiang_full=⚋⚊⚋⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火地晋, key与guaxiang_full不一致",
+      "detail": "key=101000, guaxiang_full=⚊⚋⚊⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火天大有, key与guaxiang_full不一致",
+      "detail": "key=101111, guaxiang_full=⚊⚋⚊⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=坤为地, key与guaxiang_full不一致",
+      "detail": "key=000000, guaxiang_full=⚋⚋⚋⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地雷复, key与guaxiang_full不一致",
+      "detail": "key=000001, guaxiang_full=⚋⚋⚋⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地泽临, key与guaxiang_full不一致",
+      "detail": "key=000011, guaxiang_full=⚋⚋⚋⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地天泰, key与guaxiang_full不一致",
+      "detail": "key=000111, guaxiang_full=⚋⚋⚋⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷天大壮, key与guaxiang_full不一致",
+      "detail": "key=001111, guaxiang_full=⚋⚋⚊⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽天夬, key与guaxiang_full不一致",
+      "detail": "key=011111, guaxiang_full=⚋⚊⚊⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水天需, key与guaxiang_full不一致",
+      "detail": "key=100111, guaxiang_full=⚊⚋⚋⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水地比, key与guaxiang_full不一致",
+      "detail": "key=100000, guaxiang_full=⚊⚋⚋⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=震为雷, key与guaxiang_full不一致",
+      "detail": "key=001001, guaxiang_full=⚋⚋⚊⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷地豫, key与guaxiang_full不一致",
+      "detail": "key=001000, guaxiang_full=⚋⚋⚊⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷水解, key与guaxiang_full不一致",
+      "detail": "key=001100, guaxiang_full=⚋⚋⚊⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷风恒, key与guaxiang_full不一致",
+      "detail": "key=001110, guaxiang_full=⚋⚋⚊⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地风升, key与guaxiang_full不一致",
+      "detail": "key=000110, guaxiang_full=⚋⚋⚋⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水风井, key与guaxiang_full不一致",
+      "detail": "key=100110, guaxiang_full=⚊⚋⚋⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽风大过, key与guaxiang_full不一致",
+      "detail": "key=011110, guaxiang_full=⚋⚊⚊⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽雷随, key与guaxiang_full不一致",
+      "detail": "key=011001, guaxiang_full=⚋⚊⚊⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=巽为风, key与guaxiang_full不一致",
+      "detail": "key=110110, guaxiang_full=⚊⚊⚋⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风天小畜, key与guaxiang_full不一致",
+      "detail": "key=110111, guaxiang_full=⚊⚊⚋⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风火家人, key与guaxiang_full不一致",
+      "detail": "key=110101, guaxiang_full=⚊⚊⚋⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风雷益, key与guaxiang_full不一致",
+      "detail": "key=110001, guaxiang_full=⚊⚊⚋⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天雷无妄, key与guaxiang_full不一致",
+      "detail": "key=111001, guaxiang_full=⚊⚊⚊⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火雷噬嗑, key与guaxiang_full不一致",
+      "detail": "key=101001, guaxiang_full=⚊⚋⚊⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山雷颐, key与guaxiang_full不一致",
+      "detail": "key=010001, guaxiang_full=⚋⚊⚋⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山风蛊, key与guaxiang_full不一致",
+      "detail": "key=010110, guaxiang_full=⚋⚊⚋⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=坎为水, key与guaxiang_full不一致",
+      "detail": "key=100100, guaxiang_full=⚊⚋⚋⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水泽节, key与guaxiang_full不一致",
+      "detail": "key=100011, guaxiang_full=⚊⚋⚋⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水雷屯, key与guaxiang_full不一致",
+      "detail": "key=100001, guaxiang_full=⚊⚋⚋⚋⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水火既济, key与guaxiang_full不一致",
+      "detail": "key=100101, guaxiang_full=⚊⚋⚋⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽火革, key与guaxiang_full不一致",
+      "detail": "key=011101, guaxiang_full=⚋⚊⚊⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷火丰, key与guaxiang_full不一致",
+      "detail": "key=001101, guaxiang_full=⚋⚋⚊⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地火明夷, key与guaxiang_full不一致",
+      "detail": "key=000101, guaxiang_full=⚋⚋⚋⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地水师, key与guaxiang_full不一致",
+      "detail": "key=000100, guaxiang_full=⚋⚋⚋⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=离为火, key与guaxiang_full不一致",
+      "detail": "key=101101, guaxiang_full=⚊⚋⚊⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火山旅, key与guaxiang_full不一致",
+      "detail": "key=101010, guaxiang_full=⚊⚋⚊⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火风鼎, key与guaxiang_full不一致",
+      "detail": "key=101110, guaxiang_full=⚊⚋⚊⚊⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火水未济, key与guaxiang_full不一致",
+      "detail": "key=101100, guaxiang_full=⚊⚋⚊⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山水蒙, key与guaxiang_full不一致",
+      "detail": "key=010100, guaxiang_full=⚋⚊⚋⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天火同人, key与guaxiang_full不一致",
+      "detail": "key=111101, guaxiang_full=⚊⚊⚊⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风水涣, key与guaxiang_full不一致",
+      "detail": "key=110100, guaxiang_full=⚊⚊⚋⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天水讼, key与guaxiang_full不一致",
+      "detail": "key=111100, guaxiang_full=⚊⚊⚊⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=艮为山, key与guaxiang_full不一致",
+      "detail": "key=010010, guaxiang_full=⚋⚊⚋⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山火贲, key与guaxiang_full不一致",
+      "detail": "key=010101, guaxiang_full=⚋⚊⚋⚊⚋⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山天大畜, key与guaxiang_full不一致",
+      "detail": "key=010111, guaxiang_full=⚋⚊⚋⚊⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=山泽损, key与guaxiang_full不一致",
+      "detail": "key=010011, guaxiang_full=⚋⚊⚋⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=火泽睽, key与guaxiang_full不一致",
+      "detail": "key=101011, guaxiang_full=⚊⚋⚊⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=天泽履, key与guaxiang_full不一致",
+      "detail": "key=111011, guaxiang_full=⚊⚊⚊⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风泽中孚, key与guaxiang_full不一致",
+      "detail": "key=110011, guaxiang_full=⚊⚊⚋⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=风山渐, key与guaxiang_full不一致",
+      "detail": "key=110010, guaxiang_full=⚊⚊⚋⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=兑为泽, key与guaxiang_full不一致",
+      "detail": "key=011011, guaxiang_full=⚋⚊⚊⚋⚊⚊"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽水困, key与guaxiang_full不一致",
+      "detail": "key=011100, guaxiang_full=⚋⚊⚊⚊⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽地萃, key与guaxiang_full不一致",
+      "detail": "key=011000, guaxiang_full=⚋⚊⚊⚋⚋⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=泽山咸, key与guaxiang_full不一致",
+      "detail": "key=011010, guaxiang_full=⚋⚊⚊⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=水山蹇, key与guaxiang_full不一致",
+      "detail": "key=100010, guaxiang_full=⚊⚋⚋⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=地山谦, key与guaxiang_full不一致",
+      "detail": "key=000010, guaxiang_full=⚋⚋⚋⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷山小过, key与guaxiang_full不一致",
+      "detail": "key=001010, guaxiang_full=⚋⚋⚊⚋⚊⚋"
+    },
+    {
+      "level": "P0",
+      "category": "数据一致性",
+      "message": "卦名=雷泽归妹, key与guaxiang_full不一致",
+      "detail": "key=001011, guaxiang_full=⚋⚋⚊⚋⚊⚊"
+    },
+    {
+      "level": "P1",
+      "category": "数据完整性",
+      "message": "yongshen_rules.json缺少必要类别: 测婚姻",
+      "detail": ""
+    },
+    {
+      "level": "P1",
+      "category": "数据完整性",
+      "message": "yongshen_rules.json缺少必要类别: 测工作官运",
+      "detail": ""
+    },
+    {
+      "level": "P1",
+      "category": "数据完整性",
+      "message": "yongshen_rules.json缺少必要类别: 测健康疾病",
+      "detail": ""
+    },
+    {
+      "level": "P1",
+      "category": "数据完整性",
+      "message": "yongshen_rules.json缺少必要类别: 测考试学业",
+      "detail": ""
+    }
+  ]
+}
