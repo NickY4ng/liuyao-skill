@@ -419,6 +419,7 @@ def process_one_step(user_input: str, session: Dict) -> tuple:
     
     # 安全检查：step范围
     if step < 1 or step > 6:
+        clear_session()  # 修复：清理会话避免死循环
         return "状态异常，已重置。请重新开始起卦。", True
     
     # 摇硬币
@@ -582,7 +583,8 @@ def interpret_direct(user_input: str) -> str:
             input=user_input,
             capture_output=True,
             text=True,
-            encoding="utf-8"
+            encoding="utf-8",
+            timeout=30  # 修复：添加超时参数防止死锁
         )
         if result.returncode == 0:
             return result.stdout

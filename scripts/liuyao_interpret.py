@@ -133,6 +133,8 @@ class LiuYaoInterpreter:
                 yao_lines.append(line)
 
         if len(yao_lines) != 6:
+            # 修复：第二次匹配前清空 yao_lines，避免重复累积
+            yao_lines = []
             for line in lines[1:]:
                 if re.match(r"^[上五四三二初]爻[：:]\s*[\u4e00-\u9fa5]+", line):
                     yao_lines.append(line)
@@ -143,16 +145,21 @@ class LiuYaoInterpreter:
 
         self.yao_results = []
         for i, line in enumerate(yao_lines):
-            match = re.search(r"([上五四三二初])爻[：:\s]*([少老][阴阳]+)", line)
+            # 简化解析：统一提取爻位和爻类型
+            match = re.search(r"([上五四三二初])爻[：:\s]*([少老][阴阳])", line)
             if match:
                 yao_pos = match.group(1)
-                yao_type = match.group(2).replace("动", "").strip()
+                yao_type = match.group(2)  # 如 "少阳"、"老阳"
+                
+                # 判断是否为动爻：包含"老阳"或"老阴"，或行中有"动"字
+                is_dong = yao_type in ["老阳", "老阴"] or "动" in line
+                
                 pos_map = {"初": 0, "二": 1, "三": 2, "四": 3, "五": 4, "上": 5}
                 pos_idx = pos_map.get(yao_pos, i)
                 yao_info = self.YAO_SYMBOLS.get(yao_type, {})
                 if not yao_info:
                     continue
-                is_dong = "动" in line or yao_type in ["老阳", "老阴"]
+                
                 self.yao_results.append({
                     "yao_name": self.YAO_NAMES[pos_idx],
                     "pos_idx": pos_idx,
