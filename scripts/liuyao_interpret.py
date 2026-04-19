@@ -139,8 +139,12 @@ class LiuYaoInterpreter:
                 if re.match(r"^[上五四三二初]爻[：:]\s*[\u4e00-\u9fa5]+", line):
                     yao_lines.append(line)
 
-        if len(yao_lines) != 6:
-            print(f"错误：需要6个爻的信息，找到{len(yao_lines)}个")
+        # 明确检查：不足6个爻时返回失败
+        if len(yao_lines) < 6:
+            print(f"错误：需要6个爻的信息，只找到{len(yao_lines)}个")
+            return False
+        elif len(yao_lines) > 6:
+            print(f"错误：爻数过多，找到{len(yao_lines)}个，请检查输入格式")
             return False
 
         self.yao_results = []

@@ -18,6 +18,7 @@ import random
 import os
 import time
 import re
+import fcntl
 from datetime import datetime
 from typing import Dict, List, Optional
 
@@ -277,29 +278,65 @@ def is_text(text: str) -> bool:
 
 
 def get_session() -> Optional[Dict]:
-    """读取当前起卦会话状态"""
+    """读取当前起卦会话状态（带文件锁）"""
     if not os.path.exists(SESSION_FILE):
         return None
     try:
         with open(SESSION_FILE, "r", encoding="utf-8") as f:
-            session = json.load(f)
+            # 获取共享锁（允许多读，但阻止写）
+            fcntl.flock(f.fileno(), fcntl.LOCK_SH)
+            try:
+                session = json.load(f)
+            finally:
+                fcntl.flock(f.fileno(), fcntl.LOCK_UN)
         # 检查是否超时
         last_update = session.get("last_update", 0)
         if time.time() - last_update > TIMEOUT_SECONDS:
-            # 超时，重置
-            os.remove(SESSION_FILE)
+            # 超时，重置（带排他锁）
+            try:
+                with open(SESSION_FILE, "r+", encoding="utf-8") as f:
+                    fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+                    try:
+                        # 重新检查，避免竞态
+                        f.seek(0)
+                        session_check = json.load(f)
+                        if time.time() - session_check.get("last_update", 0) > TIMEOUT_SECONDS:
+                            os.remove(SESSION_FILE)
+                    finally:
+                        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            except:
+                pass
             return None
+        # 未超时，更新last_update延长超时时间（带排他锁）
+        session["last_update"] = time.time()
+        # 检查必要字段是否存在，缺失则初始化默认值
+        required_fields = {"step": 1, "yaos": [], "question": "", "start_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        for field, default_value in required_fields.items():
+            if field not in session:
+                session[field] = default_value
+        save_session(session)
         return session
     except:
         return None
 
 
 def save_session(session: Dict):
-    """保存起卦会话状态"""
+    """保存起卦会话状态（带文件锁）"""
     session["last_update"] = time.time()
     os.makedirs(os.path.dirname(SESSION_FILE), exist_ok=True)
-    with open(SESSION_FILE, "w", encoding="utf-8") as f:
-        json.dump(session, f, ensure_ascii=False)
+    # 使用临时文件+原子重命名避免竞态
+    temp_file = SESSION_FILE + ".tmp"
+    with open(temp_file, "w", encoding="utf-8") as f:
+        # 获取排他锁
+        fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+        try:
+            json.dump(session, f, ensure_ascii=False)
+            f.flush()
+            os.fsync(f.fileno())
+        finally:
+            fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+    # 原子重命名
+    os.rename(temp_file, SESSION_FILE)
 
 
 def clear_session():
@@ -346,7 +383,7 @@ def is_divination_request(user_input: str) -> tuple:
     # 判断依据：包含问事关键词 + 以问号结尾 或 包含疑问词
     has_question_keyword = any(kw in user_input for kw in QUESTION_KEYWORDS)
     ends_with_question = user_input.endswith(("?", "？"))
-    has_question_word = any(w in user_input for w in ["吗", "么", "呢", "如何", "怎么样", "能不能", "可不可以"])
+    has_question_word = any(w in user_input for w in ["吗", "么", "呢", "如何", "怎么样", "能不能", "可不可以", "行不行", "好不好", "能否", "可不可以"])
     
     if has_question_keyword and (ends_with_question or has_question_word):
         # 看起来像问事，但没有触发词

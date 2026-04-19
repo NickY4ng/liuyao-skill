@@ -1,0 +1,27 @@
+============================================================
+六爻Skill测试报告
+============================================================
+
+总测试数: 47
+通过: 34
+失败: 10
+错误: 3
+跳过: 0
+
+失败的测试:
+  - test_45_wrong_emoji_during_divination (__main__.TestComprehensiveScenarios.test_45_wrong_emoji_during_divination)
+  - test_46_status_check_during_divination (__main__.TestComprehensiveScenarios.test_46_status_check_during_divination)
+  - test_35_missing_session_fields (__main__.TestErrorHandling.test_35_missing_session_fields)
+  - test_38_insufficient_yao_count (__main__.TestErrorHandling.test_38_insufficient_yao_count)
+  - test_23_question_without_trigger (__main__.TestInputParsing.test_23_question_without_trigger)
+  - test_03_step_out_of_bounds_recovery (__main__.TestInteractiveFlow.test_03_step_out_of_bounds_recovery)
+  - test_04_negative_step_recovery (__main__.TestInteractiveFlow.test_04_negative_step_recovery)
+  - test_05_session_timeout_reset (__main__.TestInteractiveFlow.test_05_session_timeout_reset)
+  - test_06_timeout_then_new_divination (__main__.TestInteractiveFlow.test_06_timeout_then_new_divination)
+  - test_07_rapid_consecutive_trigger_word (__main__.TestInteractiveFlow.test_07_rapid_consecutive_trigger_word)
+错误的测试:
+  - test_43_interrupt_and_resume (__main__.TestComprehensiveScenarios.test_43_interrupt_and_resume)
+  - test_44_restart_during_active_session (__main__.TestComprehensiveScenarios.test_44_restart_during_active_session)
+  - test_37_interpret_script_error (__main__.TestErrorHandling.test_37_interpret_script_error)
+
+============================================================
