@@ -1,8 +1,8 @@
 ---
 name: liuyao-skill
 description: "Use when user asks for divination, fortune-telling, I Ching, or Liu Yao (六爻) hexagram reading. Supports interactive coin-toss divination and direct hexagram interpretation."
-version: 1.0.0
-author: 绽放 (NickYang's AI Assistant)
+version: 1.1.0
+author: 绽放
 license: MIT
 metadata:
   hermes:
